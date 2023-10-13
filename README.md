@@ -8,7 +8,7 @@
 - More Updates will be coming , till then keep connected ...........
 - All the images used in the website are provided in this repository
   
-<h2>You can check the website from <a href="" target="_blank">here.</a></h2>
+<h2>You can check the website from <a href="https://sahilkumarin.github.io/Restaurant-Website/" target="_blank">here.</a></h2>
 
 ### If you want to clone this repository you can do so by following the steps:
 <h3>Prerequisites :</h3>
