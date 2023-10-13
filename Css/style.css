@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    color: rgb(255, 0, 106);
+    background: transparent;
+    
+}
+
+body{
+    margin-bottom: 60px;
+    background-color: thistle;
+    color: rgb(244, 89, 72);
+    color: black;
+}
+
+
+header{
+    /* border-bottom: 1px solid grey; */
+    box-shadow: 0px -10px 16px 5px gray;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    /* background-color: rgb(231, 167, 128); */
+    backdrop-filter: blur(13px);
+    z-index: 9;
+}
+
+nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.options li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.05rem;
+    font-weight: 900;
+}
+
+
+.welcome-image{
+    /* background: url("https://source.unsplash.com/1600x900?coffee"); */
+    background: url("../Assets/Images/coffee.jpeg");
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-bottom: 1px solid grey; */
+}
+
+.welcome-image,.book-a-table > h1{
+    text-shadow: 1px 2px 4px grey;
+    font-size: 1.5rem;
+}
+
+.book-a-table > h1{
+    font-size: 3rem;
+}
+.book-a-table{
+    background: url("../Assets/Images/book-a-table.jpeg");
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.our-menu{
+    background: url("../Assets/Images/coffee1.jpeg");
+    min-height: 80vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    background-color: antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+}
+.item-name , .item-price{
+    width: 50%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.directions{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    padding: 20px 0;
+}
+
+.footer-logo{
+    color: rgb(244, 89, 72);
+}
+
+.opt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.opt li{
+    list-style: none;
+    transition: all 1s ease;
+    padding: 4px 0;
+}
+
+.opt li:hover{
+    transform: scale(1.1);
+}
+
+.opt li a{
+    text-decoration: none;
+    color: gray;
+    transition: all 1s ease;
+}
+
+.opt li a:hover{
+    color: rgb(160, 0, 246);
+}
+
+.copyright{
+    text-align: center;
+    color: gray;
+    padding: 10px 0;
+}
