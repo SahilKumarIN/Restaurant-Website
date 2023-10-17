@@ -6,15 +6,15 @@
 
 ::selection{
     color: rgb(255, 0, 106);
-    background: transparent;
+    background: rgb(10, 233, 196);
     
 }
 
 body{
     margin-bottom: 60px;
-    background-color: thistle;
-    color: rgb(244, 89, 72);
-    color: black;
+    background-color: antiquewhite;
+    color: rgb(10, 233, 196);
+    /* color: black; */
 }
 
 
@@ -27,7 +27,24 @@ header{
     background: transparent;
     /* background-color: rgb(231, 167, 128); */
     backdrop-filter: blur(13px);
+    z-index: 999;
+}
+
+#element{
+    display: block;
+}
+
+.sticky{
+    position: sticky;
+    top: 8%;
     z-index: 9;
+    backdrop-filter: blur(18px);
+    padding: 10px;
+    border: 1px solid salmon;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin: 10px 0;
+    /* background-color : rgb(10, 233, 196) ; */
 }
 
 nav{
@@ -37,7 +54,7 @@ nav{
     right: 0;
     background-color: aqua;
     width: 100%;
-    z-index: 9;
+    z-index: 999;
 }
 
 .navbar{
@@ -70,6 +87,9 @@ nav{
 .welcome-image{
     /* background: url("https://source.unsplash.com/1600x900?coffee"); */
     background: url("../Assets/Images/coffee.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -88,6 +108,9 @@ nav{
 }
 .book-a-table{
     background: url("../Assets/Images/book-a-table.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -96,6 +119,9 @@ nav{
 }
 .our-menu{
     background: url("../Assets/Images/coffee1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: 80vh;
     padding: 20px;
     display: flex;
