@@ -1,3 +1,8 @@
+@font-face {
+    font-family: satisy;
+    src: url(../Assets/Fonts/satisfy.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +22,21 @@ body{
     /* color: black; */
 }
 
+.notification{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.notification > a{
+    color: rgb(162, 0, 255);
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+}
+
 
 header{
     /* border-bottom: 1px solid grey; */
@@ -28,6 +48,11 @@ header{
     /* background-color: rgb(231, 167, 128); */
     backdrop-filter: blur(13px);
     z-index: 999;
+}
+
+h1{
+    font-family: satisfy;
+    font-size: 2.5rem !important;
 }
 
 #element{
@@ -100,12 +125,10 @@ nav{
 
 .welcome-image,.book-a-table > h1{
     text-shadow: 1px 2px 4px grey;
-    font-size: 1.5rem;
+  
 }
 
-.book-a-table > h1{
-    font-size: 3rem;
-}
+
 .book-a-table{
     background: url("../Assets/Images/book-a-table.jpeg");
     background-repeat: no-repeat;

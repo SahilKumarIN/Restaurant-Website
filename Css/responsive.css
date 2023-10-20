@@ -4,6 +4,10 @@
         margin-bottom: 85px;;
     }
 
+    h1{
+        font-size: 1.5rem !important;
+    }
+
     .options li{
         text-align: center;
     }
@@ -11,15 +15,7 @@
     .options li a{
         font-size: 0.95rem;
     }
-
-    .welcome-image,.book-a-table > h1{
-        font-size: 1rem;
-    }
-
-    .book-a-table > h1{
-        font-size: 1.5rem;
-    }
-
+    
     footer{
         flex-direction: column;
     }
